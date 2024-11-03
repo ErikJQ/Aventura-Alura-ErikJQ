@@ -1,0 +1,21 @@
+body {
+    background-color: #e6e1a1;
+    color: rgb(73, 65, 47);
+    font-family: "Lobster", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 1;
+}
+button {
+    background-color: rgb(138, 125, 91);
+    color: rgb(255, 251, 214);
+    font-family: "Lobster", sans-serif;
+}
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display:block;
+}
